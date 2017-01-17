@@ -19,3 +19,12 @@ git config --global user.email "github的邮箱"
         1. git add .; git add -A（这里只是在暂存区）
         2. git commit -m"这里是用来写注释的"（这里只是在历史区）
         3. git push origin master(把我本地仓库的内容，推送到origin这个远程仓库的master分支上去)
+4. 如何更新老师的讲义：
+    1. 把老师发送到群里的github的远程地址，复制到github的地址栏，回车；
+    2. 到了老师的远程仓库后，点击fork
+    3. fork之后就自动到了自己的远程仓库，复制地址,使用git clone 地址
+    `git clone https://github.com/你自己的github的用户名/Javascript201616.git`
+    - git clone自动的让本地仓库和自己的远程仓库，添加了联系；
+    - 进入某个文件夹：`cd 文件夹的名称`
+    - 返回上一级文件夹：`cd ..`
+    4.
